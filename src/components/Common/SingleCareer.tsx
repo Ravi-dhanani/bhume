@@ -45,8 +45,8 @@ export default function SingleCareer(props: { slug: string }) {
           data-aos="fade-up"
         >
           <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
-            <div>
-              <div className="h-64 overflow-hidden rounded-lg bg-gray-100  md:h-auto">
+            <div className="flex flex-col justify-center">
+              <div className="h-full overflow-hidden rounded-lg bg-gray-100  md:h-auto">
                 <img
                   src="/assets/resume.png"
                   loading="lazy"

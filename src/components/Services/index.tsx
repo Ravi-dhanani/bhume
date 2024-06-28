@@ -209,7 +209,7 @@ const Services = () => {
             data-aos-anchor-placement="top-center"
             className=""
           >
-            <div className="grid gap-3 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+            <div className="grid gap-3 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
               {data
                 ?.filter((v: any) => v.language.title == id)
                 .map((item: any, index: number) => {
