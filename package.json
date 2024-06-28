@@ -1,0 +1,40 @@
+{
+  "name": "bhume",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.3",
+    "@hookform/resolvers": "^3.4.2",
+    "@tanstack/react-query": "^5.40.0",
+    "aos": "^2.3.4",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "html-react-parser": "^5.1.10",
+    "next": "^14.1.0",
+    "next-themes": "^0.2.1",
+    "pullstate": "^1.25.0",
+    "react": "^18.2.0",
+    "react-animated-cursor": "^2.11.2",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.5",
+    "react-modal-video": "^2.0.1",
+    "react-toastify": "^10.0.5",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
