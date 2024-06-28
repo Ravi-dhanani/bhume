@@ -195,7 +195,7 @@ const Services = () => {
       id="ourServices"
       className="h-screen bg-white py-20 md:py-20 lg:pt-32"
     >
-      <div className="px-5 md:px-10 md:pt-16">
+      <div className="px-5 md:px-10">
         <SectionTitle
           title="Our Services"
           ctitle="我们的服务"

@@ -59,28 +59,46 @@ const AboutUs = () => {
                                   ? "为什么选择我们?"
                                   : "Why Choose Us?"}
                               </h2>
-                              <div className="grid grid-cols-3 gap-x-2">
+                              <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-x-2">
                                 {/* <div>1</div>
                                 <div>2</div>
                                 <div>3</div> */}
-                                <p
-                                  className=" w-auto pb-5 text-xl font-normal leading-8 text-gray-500 "
-                                  dangerouslySetInnerHTML={{
-                                    __html: item.section1,
-                                  }}
-                                />
-                                <p
-                                  className=" max-w-2xl pb-5 text-xl font-normal leading-8 text-gray-500 "
-                                  dangerouslySetInnerHTML={{
-                                    __html: item.section2,
-                                  }}
-                                />
-                                <p
-                                  className=" max-w-2xl pb-5 text-xl font-normal leading-8 text-gray-500 "
-                                  dangerouslySetInnerHTML={{
-                                    __html: item.section3,
-                                  }}
-                                />
+                                <div className="flex w-auto gap-x-[5px]  align-middle">
+                                  <img
+                                    src="./assets/star.svg"
+                                    className="mt-2 h-4"
+                                  />
+                                  <p
+                                    className=" w-auto pb-5 text-xl font-normal leading-8 text-gray-500 "
+                                    dangerouslySetInnerHTML={{
+                                      __html: item.section1,
+                                    }}
+                                  />
+                                </div>
+                                <div className="flex w-auto gap-x-[5px]  align-middle">
+                                  <img
+                                    src="./assets/star.svg"
+                                    className="mt-2 h-4"
+                                  />
+                                  <p
+                                    className=" max-w-2xl pb-5 text-xl font-normal leading-8 text-gray-500 "
+                                    dangerouslySetInnerHTML={{
+                                      __html: item.section2,
+                                    }}
+                                  />
+                                </div>
+                                <div className="flex w-auto gap-x-[5px]  align-middle">
+                                  <img
+                                    src="./assets/star.svg"
+                                    className="mt-2 h-4"
+                                  />
+                                  <p
+                                    className=" max-w-2xl pb-5 text-xl font-normal leading-8 text-gray-500 "
+                                    dangerouslySetInnerHTML={{
+                                      __html: item.section3,
+                                    }}
+                                  />
+                                </div>
                               </div>
                             </div>
                           ))}

@@ -27,7 +27,7 @@ export default function TopNavbar() {
         </div>
         <div className="flex gap-x-2 ">
           <a
-            href="https://www.instagram.com/"
+            href=" https://www.instagram.com/bhume_engg?igsh=MXh1MmV0ZjRzbGsxaA%3D%3D&utm_source=qr"
             target="_blank"
             className=" text-gray-400 transition duration-100 hover:text-[#014AAd] active:text-gray-600"
           >
@@ -43,7 +43,7 @@ export default function TopNavbar() {
             </svg>
           </a>
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/profile.php?id=61561513923687"
             target="_blank"
             className=" text-gray-400 transition duration-100 hover:text-[#014AAd] active:text-gray-600"
           >
@@ -59,7 +59,7 @@ export default function TopNavbar() {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/company/bhume-engineering-design-llp"
             target="_blank"
             className=" text-gray-400 transition duration-100 hover:text-[#014AAd] active:text-gray-600"
           >
