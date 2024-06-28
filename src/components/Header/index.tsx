@@ -72,7 +72,7 @@ const Header = () => {
         {/* <div className="container xs:container  sm:mx-auto md:mx-auto xl:mx-auto"> */}
         <div className="w-full px-5 md:px-10">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="w-full max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -82,7 +82,7 @@ const Header = () => {
                 <Image
                   src="/assets/Logo.png"
                   alt="logo"
-                  width={140}
+                  width={100}
                   height={30}
                   className={`w-auto transition-all duration-300 ease-in-out ${sticky ? "h-12" : "h-14"} `}
                 />
