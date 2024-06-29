@@ -217,14 +217,14 @@ const Services = () => {
 
                   return (
                     <div className="flex h-[480px] " key={index}>
-                      <div className="group relative   w-full overflow-hidden  bg-[#014AAD] px-6 pb-8 pt-10 shadow-xl ring-1 ring-gray-900/5 transition-all  duration-300 hover:-translate-y-1 hover:shadow-2xl    sm:rounded-lg sm:px-10">
-                        <span className="absolute left-1/2 top-[136px] z-0 h-20 w-20 -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all  duration-700   group-hover:scale-[15]"></span>
-                        <div className="relative top-24 z-10 mx-auto flex max-w-md flex-col  justify-center ">
+                      <div className="group relative   w-full overflow-hidden  bg-[#014AAD] px-6 pb-8 pt-5 shadow-xl ring-1 ring-gray-900/5 transition-all  duration-300 hover:-translate-y-1 hover:shadow-2xl    sm:rounded-lg sm:px-10">
+                        <span className="absolute left-1/2 top-[136px] z-0 h-20 w-20 -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all duration-700     group-hover:scale-[15]"></span>
+                        <div className="relative top-[115px] z-10 mx-auto flex max-w-md flex-col justify-center  group-hover:top-20 ">
                           <span className="mx-auto grid h-20 w-20 place-items-center rounded-full bg-[#2c69ba] text-center transition-all duration-700 group-hover:hidden group-hover:bg-[#014AAD]">
                             {/* <img src={Icon} alt="" className="h-12" /> */}
                             {Icon}
                           </span>
-                          <div className=" space-y-4 pt-4 text-base leading-7 text-white transition-all duration-300 group-hover:text-white/90">
+                          <div className=" space-y-4 pt-4 text-base leading-7 text-white transition-all duration-300 group-hover:pt-0 group-hover:text-white/90">
                             <h1 className="hidden text-center text-2xl font-semibold group-hover:block">
                               {item.title}
                             </h1>
