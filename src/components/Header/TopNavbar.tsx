@@ -25,7 +25,7 @@ export default function TopNavbar() {
             </div>
           </div>
         </div>
-        <div className="flex gap-x-2 ">
+        <div className="hidden gap-x-2 md:flex">
           <a
             href=" https://www.instagram.com/bhume_engg?igsh=MXh1MmV0ZjRzbGsxaA%3D%3D&utm_source=qr"
             target="_blank"

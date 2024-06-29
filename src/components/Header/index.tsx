@@ -55,7 +55,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header tra -transition-all left-0 top-0 z-40  w-full items-center border-b-[0.5px] duration-300 ease-in-out md:fixed md:${
+        className={`header tra -transition-all left-0 top-0 z-40  w-full items-center border-b-[0.5px] border-gray-300 shadow-md duration-300 ease-in-out md:fixed md:${
           sticky
             ? " z-[50] bg-white bg-opacity-100 shadow-sticky backdrop-blur-sm dark:bg-gray-dark dark:shadow-sticky-dark  md:py-[5px]"
             : " bg-white  sm:py-2 md:py-[5px]"
@@ -72,7 +72,7 @@ const Header = () => {
         {/* <div className="container xs:container  sm:mx-auto md:mx-auto xl:mx-auto"> */}
         <div className="w-full px-5 md:px-10">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-full max-w-full px-4 xl:mr-12">
+            <div className="w-60 max-w-full px-4">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -82,9 +82,9 @@ const Header = () => {
                 <Image
                   src="/assets/Logo.png"
                   alt="logo"
-                  width={100}
+                  width={140}
                   height={30}
-                  className={`w-auto transition-all duration-300 ease-in-out ${sticky ? "h-12" : "h-14"} `}
+                  className={`w-auto  transition-all duration-300 ease-in-out ${sticky ? "h-12" : "h-14"} `}
                 />
                 {/* <Image
                   src="/assets/Logo.png"
@@ -95,7 +95,7 @@ const Header = () => {
                 /> */}
               </Link>
             </div>
-            <div className="flex w-full items-center justify-center px-4">
+            <div className="flex w-auto items-center justify-center px-4 sm:w-full">
               <div>
                 <button
                   onClick={navbarToggleHandler}
