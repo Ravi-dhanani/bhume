@@ -185,14 +185,14 @@ const Process = () => {
                     </div>
                     <div className="flex-grow pl-4">
                       <h2 className="title-base mb-1 text-sm font-bold tracking-wider text-gray-900">
-                        {selectLangauge == "English"
-                          ? "Conceptual Design/ Concept Development and Prototyping:"
-                          : "概念设计/概念开发和原型制作"}
+                        {selectLangauge == "Chinese"
+                          ? "概念设计/概念开发和原型制作"
+                          : "Conceptual Design/ Concept Development and Prototyping:"}
                       </h2>
                       <p className="text-sm leading-relaxed">
-                        {selectLangauge == "English"
-                          ? " Develop initial product design concepts, including considerations in geometry, angles, gating, cooling, and ejection, and share sketches or CAD models for your feedback."
-                          : "开发初始产品设计概念，包括几何形状、角度、浇口、冷却和顶出方面的考虑因素，并分享草图或 CAD 模型以获取反馈。"}
+                        {selectLangauge == "Chinese"
+                          ? "开发初始产品设计概念，包括几何形状、角度、浇口、冷却和顶出方面的考虑因素，并分享草图或 CAD 模型以获取反馈。"
+                          : " Develop initial product design concepts, including considerations in geometry, angles, gating, cooling, and ejection, and share sketches or CAD models for your feedback."}
                       </p>
                     </div>
                   </div>
@@ -205,14 +205,14 @@ const Process = () => {
                     </div>
                     <div className="flex-grow pl-4">
                       <h2 className="title-base mb-1 text-sm font-bold tracking-wider text-gray-900">
-                        {selectLangauge == "English"
-                          ? "Detailed Design and Validation/Concept Testing:"
-                          : "详细设计和验证/概念测试:"}
+                        {selectLangauge == "Chinese"
+                          ? "详细设计和验证/概念测试:"
+                          : "Detailed Design and Validation/Concept Testing:"}
                       </h2>
                       <p className="text-sm leading-relaxed">
-                        {selectLangauge == "English"
-                          ? " Incorporate the feedback to develop a detailed 3D CAD model, conduct mold flow analysis to optimise filling, cooling, and minimise warpage, and share simulation results for validation and manufacturability assurance.."
-                          : "结合反馈来开发详细的 3D CAD 模型，进行模流分析以优化填充、冷却并最大程度地减少翘曲，并共享仿真结果以进行验证和可制造性保证"}
+                        {selectLangauge == "Chinese"
+                          ? "结合反馈来开发详细的 3D CAD 模型，进行模流分析以优化填充、冷却并最大程度地减少翘曲，并共享仿真结果以进行验证和可制造性保证"
+                          : "Incorporate the feedback to develop a detailed 3D CAD model, conduct mold flow analysis to optimise filling, cooling, and minimise warpage, and share simulation results for validation and manufacturability assurance.."}
                       </p>
                     </div>
                   </div>
@@ -225,14 +225,14 @@ const Process = () => {
                     </div>
                     <div className="flex-grow pl-4">
                       <h2 className="title-base mb-1 text-sm font-bold tracking-wider text-gray-900">
-                        {selectLangauge == "English"
-                          ? "Prototype and Testing/ Engineering and Development Testing:"
-                          : "原型和测试/工程和开发测试:"}
+                        {selectLangauge == "Chinese"
+                          ? "原型和测试/工程和开发测试:"
+                          : "Prototype and Testing/ Engineering and Development Testing:"}
                       </h2>
                       <p className="text-sm leading-relaxed">
-                        {selectLangauge == "English"
-                          ? " Prepare prototype mold inserts or test molds for design validation, conduct trials to verify part quality, cycle time, and mold performance, and involve the customer in testing to gather feedback for further refinement."
-                          : "准备原型模具嵌件或测试模具以进行设计验证，进行试验以验证零件质量、周期时间和模具性能，并让客户参与测试以收集反馈以进一步完善。"}
+                        {selectLangauge == "Chinese"
+                          ? "准备原型模具嵌件或测试模具以进行设计验证，进行试验以验证零件质量、周期时间和模具性能，并让客户参与测试以收集反馈以进一步完善。"
+                          : " Prepare prototype mold inserts or test molds for design validation, conduct trials to verify part quality, cycle time, and mold performance, and involve the customer in testing to gather feedback for further refinement."}
                       </p>
                     </div>
                   </div>
@@ -245,14 +245,14 @@ const Process = () => {
                     </div>
                     <div className="flex-grow pl-4">
                       <h2 className="title-base mb-1 text-sm font-bold tracking-wider text-gray-900">
-                        {selectLangauge == "English"
-                          ? "Final Design and Documentation/Final Design:"
-                          : "最终设计和文档/最终设计:"}
+                        {selectLangauge == "Chinese"
+                          ? "最终设计和文档/最终设计:"
+                          : "Final Design and Documentation/Final Design:"}
                       </h2>
                       <p className="text-sm leading-relaxed">
-                        {selectLangauge == "English"
-                          ? " Integrate prototype feedback into the final mold design, prepare detailed manufacturing drawings with material specifications, surface finishes, and tolerances, and document maintenance and operational guidelines for the mold tool."
-                          : "将原型反馈整合到最终模具设计中，准备包含材料规格、表面光洁度和公差的详细制造图纸，并记录模具工具的维护和操作指南。"}
+                        {selectLangauge == "Chinese"
+                          ? "将原型反馈整合到最终模具设计中，准备包含材料规格、表面光洁度和公差的详细制造图纸，并记录模具工具的维护和操作指南。"
+                          : " Integrate prototype feedback into the final mold design, prepare detailed manufacturing drawings with material specifications, surface finishes, and tolerances, and document maintenance and operational guidelines for the mold tool."}
                       </p>
                     </div>
                   </div>
@@ -265,14 +265,14 @@ const Process = () => {
                     </div>
                     <div className="flex-grow pl-4">
                       <h2 className="title-base mb-1 text-sm font-bold tracking-wider text-gray-900">
-                        {selectLangauge == "English"
-                          ? "Production Support/Contract Manufacturing:"
-                          : "生产支持/合同制造:"}
+                        {selectLangauge == "Chinese"
+                          ? "生产支持/合同制造:"
+                          : "Production Support/Contract Manufacturing:"}
                       </h2>
                       <p className="text-sm leading-relaxed">
-                        {selectLangauge == "English"
-                          ? " We will support the customer in choosing a suitable manufacturing partner for mold production and ensure adherence to design specifications and quality standards throughout manufacturing."
-                          : "我们将支持客户选择合适的模具生产制造合作伙伴，并确保在整个制造过程中遵守设计规范和质量标准。"}
+                        {selectLangauge == "Chinese"
+                          ? "我们将支持客户选择合适的模具生产制造合作伙伴，并确保在整个制造过程中遵守设计规范和质量标准。"
+                          : " We will support the customer in choosing a suitable manufacturing partner for mold production and ensure adherence to design specifications and quality standards throughout manufacturing."}
                       </p>
                     </div>
                   </div>
@@ -282,14 +282,14 @@ const Process = () => {
                     </div>
                     <div className="flex-grow pl-4">
                       <h2 className="title-base mb-1 text-sm font-bold tracking-wider text-gray-900">
-                        {selectLangauge == "English"
-                          ? "Product Delivery and Post-Production Support:"
-                          : "产品交付和后期制作支持："}
+                        {selectLangauge == "Chinese"
+                          ? "产品交付和后期制作支持："
+                          : "Product Delivery and Post-Production Support:"}
                       </h2>
                       <p className="text-sm leading-relaxed">
-                        {selectLangauge == "English"
-                          ? "Deliver the completed mold tool to the customer and offer continuous support, including resolving mold issues, optimizing production processes, and making necessary design adjustments."
-                          : "向客户交付完整的模具并提供持续支持，包括解决模具问题、优化生产流程以及进行必要的设计调整"}
+                        {selectLangauge == "Chinese"
+                          ? "向客户交付完整的模具并提供持续支持，包括解决模具问题、优化生产流程以及进行必要的设计调整"
+                          : "Deliver the completed mold tool to the customer and offer continuous support, including resolving mold issues, optimizing production processes, and making necessary design adjustments."}
                       </p>
                     </div>
                   </div>
