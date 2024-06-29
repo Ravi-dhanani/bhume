@@ -88,10 +88,13 @@ const Inquiry = () => {
   }, []);
   return (
     <>
-      <section id="enquiry" className=" bg-white  pb-5 pt-16 md:pt-20 lg:pt-24">
+      <section
+        id="enquiry"
+        className=" bg-white  pb-5 pt-16 md:pt-20 lg:pt-[120px]"
+      >
         <div>
           <SectionTitle
-            title="Bhume Enquiry"
+            title="BHUME Enquiry"
             ctitle="布姆查询"
             paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
             center
@@ -317,40 +320,14 @@ const Inquiry = () => {
                             className={`w-full rounded border  border-gray-300 bg-white px-3   text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out ${errors.message ? "border-red-500" : "border-gray-300"}`}
                           />
                         </div>
-                        <div className="mb-4 ">
-                          <div className="flex items-center">
-                            <input
-                              id="link-checkbox"
-                              type="checkbox"
-                              {...register("check")}
-                              className={`" h-5 w-5 rounded  ${errors.check ? "border-red-500" : "border-gray-600"}  text-blue-600  `}
-                            />
-                            <label
-                              htmlFor="link-checkbox"
-                              className={`"text-gray-900" ms-2 text-base  font-medium dark:text-gray-300`}
-                              onClick={() => router.push("/terms-conditions")}
-                            >
-                              {id == "Chinese" ? "我同意" : "I agree with the"}
-                              &nbsp;
-                              <a className="text-[#014aad]  hover:underline">
-                                {id == "Chinese"
-                                  ? "条款和条件"
-                                  : "terms and conditions"}
-                              </a>
-                            </label>
-                          </div>
-
-                          <p className="ml-7 text-sm text-red-500">
-                            {errors.check?.message}
-                          </p>
+                        <div className="flex justify-center">
+                          <button
+                            type="submit"
+                            className="cursor-pointer rounded border-0 bg-[#014aad] px-6 py-2 text-lg  text-white focus:outline-none"
+                          >
+                            {id == "Chinese" ? "提交" : "Submit"}
+                          </button>
                         </div>
-
-                        <button
-                          type="submit"
-                          className="cursor-pointer rounded border-0 bg-[#014aad] px-6 py-2 text-lg  text-white focus:outline-none"
-                        >
-                          {id == "Chinese" ? "提交" : "Submit"}
-                        </button>
                       </div>
                     </form>
                   </div>

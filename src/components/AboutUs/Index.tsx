@@ -22,7 +22,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <section id="aboutUs" className="bg-white   py-16 md:py-20 lg:py-28">
+      <section id="aboutUs" className="bg-white py-16  md:py-20 lg:py-32">
         <div className="">
           <SectionTitle
             title="About Us"

@@ -11,7 +11,7 @@ const lstServices = [
   {
     icon: (
       <svg
-        className="h-12 w-12 "
+        className="h-16 w-16 "
         viewBox="0 0 400 400"
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ const lstServices = [
   {
     icon: (
       <svg
-        className="h-12 w-12 "
+        className="h-16 w-16 "
         viewBox="0 0 400 400"
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ const lstServices = [
   {
     icon: (
       <svg
-        className="h-12 w-12 "
+        className="h-16 w-16"
         viewBox="0 0 400 400"
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@ const lstServices = [
   {
     icon: (
       <svg
-        className="h-12 w-12 "
+        className="h-16 w-16"
         viewBox="0 0 400 400"
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +193,7 @@ const Services = () => {
   return (
     <section
       id="ourServices"
-      className="h-screen bg-white py-20 md:py-20 lg:pt-32"
+      className="h-screen bg-white py-20 md:py-20 lg:pt-36"
     >
       <div className="px-5 md:px-10">
         <SectionTitle
@@ -218,9 +218,9 @@ const Services = () => {
                   return (
                     <div className="flex h-[480px] " key={index}>
                       <div className="group relative   w-full overflow-hidden  bg-[#014AAD] px-6 pb-8 pt-5 shadow-xl ring-1 ring-gray-900/5 transition-all  duration-300 hover:-translate-y-1 hover:shadow-2xl    sm:rounded-lg sm:px-10">
-                        <span className="absolute left-1/2 top-[136px] z-0 h-20 w-20 -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all duration-700     group-hover:scale-[15]"></span>
+                        <span className="absolute left-1/2 top-[136px] z-0 h-28 w-28 -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all duration-700     group-hover:scale-[15]"></span>
                         <div className="relative top-[115px] z-10 mx-auto flex max-w-md flex-col justify-center  group-hover:top-20 ">
-                          <span className="mx-auto grid h-20 w-20 place-items-center rounded-full bg-[#2c69ba] text-center transition-all duration-700 group-hover:hidden group-hover:bg-[#014AAD]">
+                          <span className="mx-auto grid h-28 w-28 place-items-center rounded-full  text-center transition-all duration-700 group-hover:hidden group-hover:bg-[#014AAD]">
                             {/* <img src={Icon} alt="" className="h-12" /> */}
                             {Icon}
                           </span>
@@ -232,7 +232,7 @@ const Services = () => {
                               {item.title}
                             </h1>
                             <p
-                              className=" hidden group-hover:block"
+                              className="hidden text-center group-hover:block"
                               dangerouslySetInnerHTML={{
                                 __html: item.shortDescription,
                               }}

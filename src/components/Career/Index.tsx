@@ -18,7 +18,7 @@ const Career = () => {
 
   return (
     <>
-      <section className="py-16 md:py-52 lg:py-52">
+      <section className="py-16 md:py-52 lg:py-32">
         {data && (
           <div className="container">
             <SectionTitle

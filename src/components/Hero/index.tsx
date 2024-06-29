@@ -54,7 +54,7 @@ export default function Hero() {
             src="./assets/hero.jpeg"
             loading="lazy"
             alt="Photo by Fakurian Design"
-            className="h-full w-full object-cover"
+            className="h-[620px] w-full object-fill"
           />
         </div>
         {/* image - end */}
