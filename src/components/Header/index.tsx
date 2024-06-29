@@ -16,6 +16,7 @@ const Header = () => {
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
+  const selectLangauge = UIStore.useState((s) => s.selectLanguage);
 
   // Sticky Navbar
   const [sticky, setSticky] = React.useState(false);
@@ -145,7 +146,9 @@ const Header = () => {
                                 setNavbarOpen(false);
                               }}
                             >
-                              {menuItem.title}
+                              {selectLangauge == "Chinese"
+                                ? menuItem.CTitle
+                                : menuItem.title}
                             </Link>
                             <span
                               className={`absolute -bottom-0 left-0 h-0.5 w-0 bg-[#014aad] transition-all group-hover:w-full ${

@@ -68,7 +68,9 @@ const Career = () => {
                             }
                             className="cursor-pointer font-semibold text-[#014aad] transition duration-100 hover:text-[#014aad] active:text-indigo-700"
                           >
-                            Read more
+                            {selectLanguage == "Chinese"
+                              ? "阅读更多"
+                              : "Read more"}
                           </button>
                         </div>
                       </div>

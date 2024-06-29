@@ -4,4 +4,6 @@ export type Menu = {
   path?: string;
   newTab: boolean;
   submenu?: Menu[];
+  language: string;
+  CTitle: string;
 };
