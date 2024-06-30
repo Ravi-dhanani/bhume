@@ -191,10 +191,7 @@ const Services = () => {
   if (isLoading) return <Loadding />;
 
   return (
-    <section
-      id="ourServices"
-      className="  bg-white py-20 md:py-20 lg:pt-36 2xl:mt-[150px]"
-    >
+    <section id="ourServices" className="  bg-white py-20 md:py-20 lg:pt-36">
       <div className="px-5 md:px-10">
         <SectionTitle
           title="Our Services"
