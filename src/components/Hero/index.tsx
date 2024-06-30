@@ -49,12 +49,12 @@ export default function Hero() {
                 </div>
               ))}
         </div>
-        <div className=" h-auto overflow-hidden      lg:h-full xl:w-6/12">
+        <div className=" h-auto overflow-hidden lg:h-full xl:w-6/12">
           <img
             src="./assets/hero.jpeg"
             loading="lazy"
             alt="Photo by Fakurian Design"
-            className="h-auto w-full  object-fill md:h-[520px]"
+            className="h-auto w-full  object-fill md:h-[620px]"
           />
         </div>
         {/* image - end */}

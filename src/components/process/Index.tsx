@@ -19,7 +19,7 @@ const Process = () => {
         id="ourProcess"
         className="bg-white pt-[1300px] sm:mt-[500px] sm:py-48 md:mt-[350px] md:py-20  lg:mt-16 lg:py-24 2xl:mt-40"
       >
-        <div className="">
+        <div className="mt-10">
           <SectionTitle
             title="Our Process"
             ctitle="我们的流程"
