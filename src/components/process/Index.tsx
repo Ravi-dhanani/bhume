@@ -19,7 +19,7 @@ const Process = () => {
         id="ourProcess"
         className="bg-white pt-[1300px] sm:mt-[500px] sm:py-48 md:mt-[350px] md:py-20  lg:mt-16 lg:py-24"
       >
-        <div className="mb-3 mt-10">
+        <div className="mt-10">
           <SectionTitle
             title="Our Process"
             ctitle="我们的流程"
@@ -29,7 +29,7 @@ const Process = () => {
 
           <div className="flex flex-wrap ">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-              <div className="grid  sm:gap-y-5 md:mx-10 md:grid-cols-1 lg:grid-cols-2">
+              <div className="mt-5 grid sm:gap-y-5 md:mx-10 md:grid-cols-1 lg:grid-cols-2">
                 <div className="px-5 md:px-0">
                   <img
                     className=" max-h-[700px]  w-full md:mt-0 lg:object-contain "
