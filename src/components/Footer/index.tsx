@@ -17,7 +17,7 @@ const Footer = () => {
                   BHUME Engineering Design LLP India
                 </p>
                 <p className="mb-3 text-base leading-relaxed text-body-color hover:text-[#014AAd] dark:text-body-color-dark">
-                  BHUME PTD LTD
+                  BHUME PTE LTD
                 </p>
               </div>
             </div>

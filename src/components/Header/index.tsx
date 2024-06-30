@@ -59,7 +59,7 @@ const Header = () => {
         className={`header tra -transition-all left-0 top-0  z-40 w-full items-center  border-b-[0.10px] border-gray-300 shadow-md duration-300 ease-in-out md:fixed md:${
           sticky
             ? " z-[50] bg-white bg-opacity-100 shadow-sticky backdrop-blur-sm dark:bg-gray-dark dark:shadow-sticky-dark  md:py-[5px]"
-            : " bg-white  sm:py-2 md:py-[5px]"
+            : " w-full bg-white sm:py-2 md:py-[5px]"
         } ${
           sticky
             ? "fixed z-[50] bg-white bg-opacity-100 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"

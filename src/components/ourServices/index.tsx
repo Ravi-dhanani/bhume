@@ -7,7 +7,7 @@ import ApiServices from "@/services/Apiservices";
 import { useQuery } from "@tanstack/react-query";
 import Loadding from "../Common/Loadding";
 
-const lstServices = [
+export const lstServices = [
   {
     icon: (
       <svg
