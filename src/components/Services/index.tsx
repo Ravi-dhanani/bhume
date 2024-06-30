@@ -193,7 +193,7 @@ const Services = () => {
   return (
     <section
       id="ourServices"
-      className="h-screen bg-white py-20 md:py-20 lg:pt-36"
+      className="  bg-white py-20 md:py-20 lg:pt-36 2xl:mt-40"
     >
       <div className="px-5 md:px-10">
         <SectionTitle
