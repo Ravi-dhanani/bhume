@@ -15,9 +15,7 @@ export default function SingleCareer(props: { slug: string }) {
   });
 
   const sendEmail = () => {
-    window.open(
-      "https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvwTpHZBqqTDwXmxLRbntXpgHDDmrJzSWkFLWsLSbnMxfpnStvzSlTjVpBcbGkwKRtMPQq",
-    );
+    window.open("https://mail.google.com/mail/u/0/#inbox?compose=new");
   };
   if (isLoading) return <Loadding />;
   return (
