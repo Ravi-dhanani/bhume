@@ -15,7 +15,9 @@ export default function SingleCareer(props: { slug: string }) {
   });
 
   const sendEmail = () => {
-    window.open("https://mail.google.com/mail/u/0/#inbox?compose=new");
+    window.open(
+      "https://mail.google.com/mail/?view=cm&fs=1&to=hr@bhumeeng.com",
+    );
   };
   if (isLoading) return <Loadding />;
   return (
