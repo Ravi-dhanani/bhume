@@ -32,7 +32,7 @@ const Header = () => {
   });
 
   useMemo(() => {
-    fetch("https://bhume-backend.onrender.com/api/get_language")
+    fetch("https://api.bhumeeng.com/api/get_language")
       .then((res: any) => res.json())
       .then((result: any) =>
         UIStore.update((s) => {
