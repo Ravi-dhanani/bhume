@@ -2,7 +2,6 @@
 const nextConfig = {
   env: {
     BASE_URL: "https://api.bhumeeng.com",
-    // BASE_URL: "http://localhost:4000",
   },
 };
 
