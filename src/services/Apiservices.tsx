@@ -52,7 +52,7 @@ class ApiServices {
 
   static async getLanguage(_id: string) {
     let res = await HttpService.get(
-      `${process.env.API_URL}/api/get_title/${_id}`,
+      `${URL}/api/get_title/${_id}`,
       localStorage.token,
     );
     return res.data;
