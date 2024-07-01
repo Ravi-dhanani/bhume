@@ -13,6 +13,7 @@ export default function SelectLanguage() {
     queryKey: ["language"],
     queryFn: ApiServices.getLstLanguage,
   });
+
   return (
     <div className="w-full">
       <select
@@ -20,7 +21,6 @@ export default function SelectLanguage() {
         className="focus-within-none block   rounded-lg border  px-4 py-3 text-base outline-none  "
         defaultValue={"English"}
         onChange={(e: any) => {
-          // dispatch(setSelectLanguage(e.target.value));
           UIStore.update((s) => {
             s.selectLanguage = e.target.value;
           });

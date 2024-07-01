@@ -14,6 +14,7 @@ const Career = () => {
     queryKey: ["career"],
     queryFn: ApiServices.getLstCareer,
   });
+
   if (isLoading) return <Loadding />;
 
   return (
@@ -29,7 +30,7 @@ const Career = () => {
             />
             <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
               {data &&
-                data.length > 1 &&
+                data.length > 0 &&
                 data
                   ?.filter((v: any) => v.language.title == selectLanguage)
                   .map((item: any, index: number) => (
