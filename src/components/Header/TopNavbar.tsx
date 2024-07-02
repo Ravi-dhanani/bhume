@@ -9,7 +9,7 @@ export default function TopNavbar() {
       <div className="flex justify-between md:mx-10 ">
         <div className="flex justify-between gap-x-5">
           <div className="flex gap-x-1">
-            <p className="text-base text-gray-600">
+            <p className="text-base text-[#014AAD]">
               {selectLangauge == "Chinese" ? "接触:" : "Contact:"}
             </p>
             <p className="text-base font-bold text-[#014AAD]">

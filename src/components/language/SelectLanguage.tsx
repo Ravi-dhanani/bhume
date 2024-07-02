@@ -2,7 +2,7 @@
 import ApiServices from "@/services/Apiservices";
 import { UIStore } from "@/services/pullstate/store";
 import { useQuery } from "@tanstack/react-query";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface ISelectLanguage {
   _id: string;
@@ -13,6 +13,13 @@ export default function SelectLanguage() {
     queryKey: ["language"],
     queryFn: ApiServices.getLstLanguage,
   });
+
+  useEffect(() => {
+    let language: any = localStorage.getItem("language");
+    UIStore.update((s) => {
+      s.selectLanguage = language;
+    });
+  }, []);
 
   return (
     <div className="w-full">

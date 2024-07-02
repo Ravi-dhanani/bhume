@@ -13,6 +13,7 @@ export default function Hero() {
   });
 
   const id = UIStore.useState((s) => s.selectLanguage);
+  console.log(id);
   if (isLoading) return <Loadding />;
 
   return (
