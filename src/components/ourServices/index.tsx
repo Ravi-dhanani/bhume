@@ -11,7 +11,7 @@ export const lstServices = [
   {
     icon: (
       <svg
-        className="h-20 w-20"
+        className="h-16 w-16 "
         viewBox="0 0 400 400"
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export const lstServices = [
   {
     icon: (
       <svg
-        className="h-20 w-20 "
+        className="h-16 w-16 "
         viewBox="0 0 400 400"
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ export const lstServices = [
   {
     icon: (
       <svg
-        className="h-20 w-20"
+        className="h-16 w-16"
         viewBox="0 0 400 400"
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@ export const lstServices = [
   {
     icon: (
       <svg
-        className="h-20 w-20"
+        className="h-16 w-16"
         viewBox="0 0 400 400"
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
@@ -200,27 +200,24 @@ const Services = () => {
           center
         />
 
-        <div className="mt-10 flex flex-col justify-center">
+        <div className="mt-10">
           <div
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
             className=""
           >
-            <div className="flex-wrap justify-normal gap-3 md:flex md:justify-center">
+            <div className="grid gap-3 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
               {data
                 ?.filter((v: any) => v.language.title == id)
                 .map((item: any, index: number) => {
                   const Icon = lstServices[index].icon;
 
                   return (
-                    <div
-                      className="flex h-[450px] w-[350px] justify-center"
-                      key={index}
-                    >
-                      <div className="group relative   w-full overflow-hidden  rounded-lg bg-[#014AAD] px-6 pb-8 pt-5 shadow-xl ring-1 ring-gray-900/5  transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl sm:px-10">
-                        <span className="absolute left-1/2 top-[136px] z-0  -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all duration-700 group-hover:h-28 group-hover:w-28    group-hover:scale-[15]"></span>
+                    <div className="flex h-[480px] " key={index}>
+                      <div className="group relative   w-full overflow-hidden  bg-[#014AAD] px-6 pb-8 pt-5 shadow-xl ring-1 ring-gray-900/5 transition-all  duration-300 hover:-translate-y-1 hover:shadow-2xl    sm:rounded-lg sm:px-10">
+                        <span className="absolute left-1/2 top-[136px] z-0 h-28 w-28 -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all duration-700     group-hover:scale-[15]"></span>
                         <div className="relative top-[115px] z-10 mx-auto flex max-w-md flex-col justify-center  group-hover:top-20 ">
-                          <span className="mx-auto grid  place-items-center rounded-full  text-center transition-all duration-700 group-hover:hidden group-hover:bg-[#014AAD]">
+                          <span className="mx-auto grid h-28 w-28 place-items-center rounded-full  text-center transition-all duration-700 group-hover:hidden group-hover:bg-[#014AAD]">
                             {/* <img src={Icon} alt="" className="h-12" /> */}
                             {Icon}
                           </span>

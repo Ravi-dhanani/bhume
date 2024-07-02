@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    BASE_URL: "https://bhume-backend.onrender.com",
+    BASE_URL: "https://api.bhumeeng.com",
   },
 };
 

@@ -11,14 +11,6 @@ class ApiServices {
     UIStore.update((s) => {
       s.selectLanguage = res.data[0].title;
     });
-    if (typeof window !== "undefined") {
-      const language = localStorage.getItem("language");
-
-      if (language == undefined) {
-        localStorage.setItem("language", res.data[0]._id);
-      }
-    }
-
     return res.data;
   }
 
@@ -60,7 +52,7 @@ class ApiServices {
 
   static async getLanguage(_id: string) {
     let res = await HttpService.get(
-      `${process.env.API_URL}/api/get_title/${_id}`,
+      `${URL}/api/get_title/${_id}`,
       localStorage.token,
     );
     return res.data;
