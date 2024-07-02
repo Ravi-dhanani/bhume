@@ -219,7 +219,7 @@ const Services = () => {
                     >
                       <div className="group relative   w-full overflow-hidden  rounded-lg bg-[#014AAD] px-6 pb-8 pt-5 shadow-xl ring-1 ring-gray-900/5  transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl sm:px-10">
                         <span className="absolute left-1/2 top-[136px] z-0  -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all duration-700 group-hover:h-28 group-hover:w-28    group-hover:scale-[15]"></span>
-                        <div className="relative top-[115px] z-10 mx-auto flex max-w-md flex-col justify-center  group-hover:top-20 ">
+                        <div className="relative top-[115px] z-10 mx-auto flex max-w-md flex-col justify-center  group-hover:top-10 ">
                           <span className="mx-auto grid  place-items-center rounded-full  text-center transition-all duration-700 group-hover:hidden group-hover:bg-[#014AAD]">
                             {/* <img src={Icon} alt="" className="h-12" /> */}
                             {Icon}
