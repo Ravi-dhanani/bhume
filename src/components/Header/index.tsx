@@ -3,12 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useMemo, useState } from "react";
-import SelectLanguage from "../language/SelectLanguage";
 import menuData from "./menuData";
 import Navbar from "./Navbar";
 import { UIStore } from "@/services/pullstate/store";
 import TopNavbar from "./TopNavbar";
-
+import dynamic from "next/dynamic";
+const SelectLanguage = dynamic(() => import("../language/SelectLanguage"), {
+  ssr: false,
+});
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -32,7 +34,7 @@ const Header = () => {
   });
 
   useMemo(() => {
-    fetch("https://api.bhumeeng.com/api/get_language")
+    fetch("https://bhume-backend.onrender.com/api/get_language")
       .then((res: any) => res.json())
       .then((result: any) =>
         UIStore.update((s) => {

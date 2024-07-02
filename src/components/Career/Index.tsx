@@ -1,10 +1,10 @@
 "use client";
 import ApiServices from "@/services/Apiservices";
 import { useQuery } from "@tanstack/react-query";
-import { useRouter } from "next/navigation";
 import Loadding from "../Common/Loadding";
 import SectionTitle from "../Common/SectionTitle";
 import { UIStore } from "@/services/pullstate/store";
+import { useRouter } from "next/navigation";
 
 const Career = () => {
   const router = useRouter();
@@ -14,7 +14,6 @@ const Career = () => {
     queryKey: ["career"],
     queryFn: ApiServices.getLstCareer,
   });
-
   if (isLoading) return <Loadding />;
 
   return (
@@ -30,11 +29,12 @@ const Career = () => {
             />
             <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
               {data &&
+                data.length > 0 &&
                 data
                   ?.filter((v: any) => v.language.title == selectLanguage)
                   .map((item: any, index: number) => (
                     <div
-                      className="relative flex flex-col items-center overflow-hidden rounded-lg border md:flex-row"
+                      className="relative flex flex-col items-center overflow-hidden rounded-lg border sm:rounded-sm md:flex-row"
                       key={index}
                       data-aos="fade-up"
                     >
