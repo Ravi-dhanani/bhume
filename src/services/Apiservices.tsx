@@ -8,9 +8,13 @@ class ApiServices {
       `${URL}/api/get_language`,
       localStorage.token,
     );
-    UIStore.update((s) => {
-      s.selectLanguage = res.data[0].title;
-    });
+    if (typeof window !== "undefined") {
+      const language = localStorage.getItem("language");
+
+      if (language == undefined) {
+        localStorage.setItem("language", res.data[0]._id);
+      }
+    }
     return res.data;
   }
 
