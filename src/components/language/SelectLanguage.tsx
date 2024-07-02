@@ -2,7 +2,7 @@
 import ApiServices from "@/services/Apiservices";
 import { UIStore } from "@/services/pullstate/store";
 import { useQuery } from "@tanstack/react-query";
-import { useEffect, useMemo, useState } from "react";
+import { useState } from "react";
 
 interface ISelectLanguage {
   _id: string;
@@ -13,30 +13,17 @@ export default function SelectLanguage() {
     queryKey: ["language"],
     queryFn: ApiServices.getLstLanguage,
   });
-  const [defultLanguage, setDefultLanguage] = useState<any>();
-  useMemo(() => {
-    if (typeof window !== "undefined") {
-      const trs = localStorage.getItem("language");
-      setDefultLanguage(trs);
-    }
-  }, []);
 
-  useEffect(() => {
-    UIStore.update((s) => {
-      s.selectLanguage = defultLanguage;
-    });
-  });
-
-  if (!data) return;
   return (
     <div className="w-full">
       <select
         id="large"
-        className="focus-within-none block rounded-lg border  px-4 py-3 text-base outline-none  "
-        value={defultLanguage}
+        className="focus-within-none block   rounded-lg border  px-4 py-3 text-base outline-none  "
+        defaultValue={"English"}
         onChange={(e: any) => {
-          localStorage.setItem("language", e.target.value);
-          setDefultLanguage(e.target.value);
+          UIStore.update((s) => {
+            s.selectLanguage = e.target.value;
+          });
         }}
       >
         {data &&
