@@ -10,10 +10,10 @@ export default function TopNavbar() {
         <div className="flex justify-between md:mx-10 ">
           <div className="flex justify-between gap-x-5">
             <div className="flex gap-x-1">
-              <p className="text-base font-bold text-[#014AAD]">
+              <p className="text-base text-body-color">
                 {selectLangauge == "Chinese" ? "接触:" : "Contact:"}
               </p>
-              <p className="text-base font-bold text-[#014AAD]">
+              <p className="text-base text-body-color  hover:text-[#014AAD]">
                 +91 90042 34631
                 {selectLangauge == "Chinese" ? "(孟买):" : "(Mumbai)"}
               </p>
@@ -23,7 +23,7 @@ export default function TopNavbar() {
                 <p className="text-base text-gray-600">
                   {selectLangauge == "Chinese" ? "邮件:" : "Mail:"}
                 </p>
-                <p className="text-base font-bold text-[#014AAD]">
+                <p className="text-base text-body-color hover:text-[#014AAD]">
                   <a href="mailto:info@nebulem.com">enquiry@bhumeeng.com</a>
                 </p>
               </div>

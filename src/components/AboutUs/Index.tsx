@@ -69,52 +69,46 @@ const AboutUs = () => {
                                   </div>
                                 </div>
                                 <div className="grid gap-2 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 xl:grid xl:grid-cols-3 2xl:grid 2xl:grid-cols-3">
-                                  {/* <div className="flex  w-52 rounded-lg bg-[#014AAD]">
-                                    <div className="flex h-72 w-auto lg:w-52">
-                                      <div className="group relative   w-full overflow-hidden    p-5 text-white shadow-xl   transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl ">
-                                        <span className="absolute right-0 top-0 z-0 h-0 w-0 -translate-x-1/2 rounded-sm  bg-[#2c69ba] transition-all duration-1000 group-hover:h-full group-hover:w-full group-hover:scale-[15] group-hover:delay-150"></span>
-                                        <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
-                                          <div className="text-base  text-white transition-all duration-300 group-hover:pt-0 ">
-                                            <p
-                                              dangerouslySetInnerHTML={{
-                                                __html: item.section1,
-                                              }}
-                                            />
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div> */}
-                                  <div className="h-full w-full">
-                                    <div className="group relative    overflow-hidden  rounded-lg bg-[#014AAD] px-6 pb-8 pt-5 shadow-xl ring-1 ring-gray-900/5  transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl ">
-                                      <span className="absolute left-1/2 top-[136px] z-0  -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all duration-700 group-hover:h-28 group-hover:w-28    group-hover:scale-[5]"></span>
-                                      <div className="relative top-2 z-10 mx-auto flex max-w-md flex-col justify-center   ">
-                                        <span className="mx-auto grid  place-items-center rounded-full  text-center transition-all duration-700 group-hover:hidden group-hover:bg-[#014AAD]"></span>
-                                        <div className=" space-y-4  text-base leading-7 text-white transition-all duration-300 group-hover:pt-0 group-hover:text-white/90">
+                                  <div className="flex justify-center">
+                                    <div className="group relative  h-72 w-56 transform overflow-hidden rounded-lg bg-[#014AAD] p-5  shadow-md duration-500 hover:scale-105 hover:shadow-xl ">
+                                      <span className="absolute left-1/2 top-24 z-0 h-0 w-0 -translate-x-1/2 rounded-full  bg-[#2c69ba]  transition-all duration-1000 group-hover:h-28 group-hover:w-28 group-hover:scale-[15] group-hover:delay-150"></span>
+                                      <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
+                                        <div className="text-base  text-white transition-all duration-300 group-hover:pt-0 ">
                                           <p
-                                            className=""
                                             dangerouslySetInnerHTML={{
                                               __html: item.section1,
                                             }}
-                                          ></p>
+                                          />
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-                                  <div className="">
-                                    <div className="group relative    overflow-hidden  rounded-lg bg-[#014AAD] px-6 pb-8 pt-5 shadow-xl ring-1 ring-gray-900/5  transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl ">
-                                      <span className="absolute left-1/2 top-[136px] z-0  -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all duration-700 group-hover:h-28 group-hover:w-28    group-hover:scale-[5]"></span>
-                                      <div className="relative top-2 z-10 mx-auto flex max-w-md flex-col justify-center   ">
-                                        <span className="mx-auto grid  place-items-center rounded-full  text-center transition-all duration-700 group-hover:hidden group-hover:bg-[#014AAD]">
-                                          {" "}
-                                        </span>
-                                        <div className=" space-y-4  text-base leading-7 text-white transition-all duration-300 group-hover:pt-0 group-hover:text-white/90">
+
+                                  <div className="flex justify-center">
+                                    <div className="group relative  h-72 w-56 transform overflow-hidden rounded-lg bg-[#014AAD] p-5  shadow-md duration-500 hover:scale-105 hover:shadow-xl ">
+                                      <span className="absolute left-1/2 top-24 z-0 h-0 w-0 -translate-x-1/2 rounded-full  bg-[#2c69ba]  transition-all duration-1000 group-hover:h-28 group-hover:w-28 group-hover:scale-[15] group-hover:delay-150"></span>
+                                      <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
+                                        <div className="text-base  text-white transition-all duration-300 group-hover:pt-0 ">
                                           <p
-                                            className=" "
                                             dangerouslySetInnerHTML={{
                                               __html: item.section2,
                                             }}
-                                          ></p>
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div className="flex justify-center">
+                                    <div className="group relative  h-72 w-56 transform overflow-hidden rounded-lg bg-[#014AAD] p-5  shadow-md duration-500 hover:scale-105 hover:shadow-xl ">
+                                      <span className="absolute left-1/2 top-24 z-0 h-0 w-0 -translate-x-1/2 rounded-full  bg-[#2c69ba]  transition-all duration-1000 group-hover:h-28 group-hover:w-28 group-hover:scale-[15] group-hover:delay-150"></span>
+                                      <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
+                                        <div className="text-base  text-white transition-all duration-300 group-hover:pt-0 ">
+                                          <p
+                                            dangerouslySetInnerHTML={{
+                                              __html: item.section3,
+                                            }}
+                                          />
                                         </div>
                                       </div>
                                     </div>
