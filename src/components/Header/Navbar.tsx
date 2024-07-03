@@ -53,8 +53,8 @@ export default function Navbar() {
   const selectLangauge = UIStore.useState((s) => s.selectLanguage);
 
   return (
-    <div>
-      <nav className="hidden gap-10 lg:flex lg:justify-between">
+    <div className="hidden sm:hidden md:hidden lg:block xl:block 2xl:block">
+      <nav className=" lg:flex lg:gap-x-7 xl:flex xl:justify-between 2xl:flex 2xl:justify-between ">
         <a
           onClick={() => {
             pathname == "/career" || "/singleCareer"

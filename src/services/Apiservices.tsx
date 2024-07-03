@@ -11,6 +11,7 @@ class ApiServices {
     UIStore.update((s) => {
       s.selectLanguage = res.data[0].title;
     });
+
     return res.data;
   }
 

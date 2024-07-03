@@ -192,7 +192,7 @@ const Services = () => {
 
   return (
     <section id="ourServices" className="  bg-white py-20 md:py-20 lg:pt-36">
-      <div className="px-5 md:px-10">
+      <div className="px-5 md:px-3 lg:px-3 xl:px-3">
         <SectionTitle
           title="Our Services"
           ctitle="我们的服务"
@@ -200,13 +200,13 @@ const Services = () => {
           center
         />
 
-        <div className="mt-10 flex flex-col justify-center">
+        <div className="mt-10">
           <div
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
-            className=""
+            className="flex flex-col  items-center justify-center"
           >
-            <div className="flex-wrap justify-normal gap-3 md:flex md:justify-center">
+            <div className="md: grid justify-center gap-y-2 sm:grid sm:grid-cols-1 sm:gap-2 md:grid md:grid-cols-2 md:space-y-0 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4">
               {data
                 ?.filter((v: any) => v.language.title == id)
                 .map((item: any, index: number) => {
@@ -217,7 +217,7 @@ const Services = () => {
                       className="flex h-[450px] w-[350px] justify-center"
                       key={index}
                     >
-                      <div className="group relative   w-full overflow-hidden  rounded-lg bg-[#014AAD] px-6 pb-8 pt-5 shadow-xl ring-1 ring-gray-900/5  transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl sm:px-10">
+                      <div className="group relative   w-full overflow-hidden  rounded-lg bg-[#014AAD] px-6 pb-8 pt-5 shadow-xl ring-1 ring-gray-900/5  transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl ">
                         <span className="absolute left-1/2 top-[136px] z-0  -translate-x-1/2 rounded-full bg-[#2c69ba] transition-all duration-700 group-hover:h-28 group-hover:w-28    group-hover:scale-[15]"></span>
                         <div className="relative top-[115px] z-10 mx-auto flex max-w-md flex-col justify-center  group-hover:top-10 ">
                           <span className="mx-auto grid  place-items-center rounded-full  text-center transition-all duration-700 group-hover:hidden group-hover:bg-[#014AAD]">
