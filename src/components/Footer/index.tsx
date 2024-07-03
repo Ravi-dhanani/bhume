@@ -13,10 +13,14 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-12">
-                <p className="mb-2 text-base leading-relaxed text-body-color hover:text-[#014AAd] dark:text-body-color-dark">
+                <p className="mb-2 text-base font-bold leading-relaxed text-[#014AAd]  dark:text-body-color-dark">
                   BHUME Engineering Design LLP, India
                 </p>
-                <p className="mb-3 text-base leading-relaxed text-body-color hover:text-[#014AAd] dark:text-body-color-dark">
+                <span className=" text-sm text-body-color">
+                  Unit No.516. 5th Floor, B2B Centre Co. Op. Premises Society
+                  Ltd., Kanchpada, Malad (West), Mumbai 400064
+                </span>
+                <p className="mt-3 text-base font-bold leading-relaxed text-[#014AAd] dark:text-body-color-dark">
                   BHUME Pte Ltd, Singapore
                 </p>
               </div>
