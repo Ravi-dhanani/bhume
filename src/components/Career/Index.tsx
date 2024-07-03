@@ -19,9 +19,9 @@ const Career = () => {
 
   return (
     <>
-      <section className="py-16 md:py-52 lg:py-32">
+      <section className=" py-16 sm:py-24 md:py-24 lg:py-32">
         {data && (
-          <div className="container">
+          <div className="container mt-10 overflow-hidden">
             <SectionTitle
               title="Join Our Team"
               ctitle="加入我们的团队"
