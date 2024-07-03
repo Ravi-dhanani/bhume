@@ -66,7 +66,7 @@ const Header = () => {
             : "absolute bg-white  "
         } `}
       >
-        <div className="hidden md:block">
+        <div className="hidden md:block lg:block xl:block 2xl:block">
           <TopNavbar />
         </div>
 

@@ -31,10 +31,10 @@ const AboutUs = () => {
             paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
             center
           />
-          <section className="relative lg:px-10  lg:py-5">
+          <section className="relative lg:py-5">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-              <div className="relative mx-auto   md:px-6 lg:px-8 ">
-                <div className="grid grid-cols-1 gap-9 lg:grid-cols-2">
+              <div className="relative mx-auto    ">
+                <div className="grid grid-cols-1 gap-x-2 lg:grid-cols-1  xl:grid-cols-2 2xl:grid-cols-2">
                   <div className="img-box">
                     <img
                       src="assets/aboutUs.png"
@@ -42,7 +42,7 @@ const AboutUs = () => {
                       className="max-lg:mx-auto"
                     />
                   </div>
-                  <div className="mx-5 flex items-center">
+                  <div className="mx-5 flex items-center ">
                     <div>
                       {data &&
                         data
@@ -67,95 +67,56 @@ const AboutUs = () => {
                                     </h2>
                                     <hr className="h-[3px] w-48 bg-[#014AAd]" />
                                   </div>
-                                  {/* <span
-                                    className={`absolute -bottom-1 mt-1 h-0.5 w-[190px] bg-[#014aad] transition-all md:left-[263px] lg:left-[180px]`}
-                                  ></span> */}
                                 </div>
-                                <div className="grid  gap-y-2  sm:grid-cols-3 sm:gap-x-2">
-                                  <div className="flex h-[360px]" key={index}>
-                                    <div className="group relative   w-full overflow-hidden  bg-[#014AAD] p-5 text-white shadow-xl ring-1 transition-all  duration-300 hover:-translate-y-1 hover:shadow-2xl    sm:rounded-lg sm:px-10">
-                                      <span className="absolute right-0 top-0 z-0 h-0 w-0 -translate-x-1/2 rounded-sm  bg-[#2c69ba] transition-all duration-1000 group-hover:h-full group-hover:w-full group-hover:scale-[15] group-hover:delay-150"></span>
-                                      <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
-                                        <div className="text-base leading-6 text-white transition-all duration-300 group-hover:pt-0 ">
-                                          <p
-                                            dangerouslySetInnerHTML={{
-                                              __html: item.section1,
-                                            }}
-                                          />
+                                <div className="grid grid-cols-2 gap-2  md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
+                                  <div className="flex justify-center">
+                                    <div className="flex h-72 w-52">
+                                      <div className="group relative   w-full overflow-hidden  rounded-lg bg-[#014AAD] p-5 text-white shadow-xl ring-1  transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl ">
+                                        <span className="absolute right-0 top-0 z-0 h-0 w-0 -translate-x-1/2 rounded-sm  bg-[#2c69ba] transition-all duration-1000 group-hover:h-full group-hover:w-full group-hover:scale-[15] group-hover:delay-150"></span>
+                                        <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
+                                          <div className="text-base  text-white transition-all duration-300 group-hover:pt-0 ">
+                                            <p
+                                              dangerouslySetInnerHTML={{
+                                                __html: item.section1,
+                                              }}
+                                            />
+                                          </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-
-                                  <div className="flex h-auto" key={index}>
-                                    <div className="group relative   w-full overflow-hidden  bg-[#014AAD] p-5 text-white shadow-xl ring-1 transition-all  duration-300 hover:-translate-y-1 hover:shadow-2xl    sm:rounded-lg sm:px-10">
-                                      <span className="absolute right-0 top-0 z-0 h-0 w-0 -translate-x-1/2 rounded-sm  bg-[#2c69ba] transition-all duration-1000 group-hover:h-full group-hover:w-full group-hover:scale-[15] group-hover:delay-150"></span>
-                                      <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
-                                        <div className="text-base leading-6 text-white transition-all duration-300 group-hover:pt-0 ">
-                                          <p
-                                            dangerouslySetInnerHTML={{
-                                              __html: item.section2,
-                                            }}
-                                          />
+                                  <div className="flex justify-center">
+                                    <div className="flex h-72 w-52">
+                                      <div className="group relative   w-full overflow-hidden  rounded-lg bg-[#014AAD] p-5 text-white shadow-xl ring-1  transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl ">
+                                        <span className="absolute right-0 top-0 z-0 h-0 w-0 -translate-x-1/2 rounded-sm  bg-[#2c69ba] transition-all duration-1000 group-hover:h-full group-hover:w-full group-hover:scale-[15] group-hover:delay-150"></span>
+                                        <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
+                                          <div className="text-base  text-white transition-all duration-300 group-hover:pt-0 ">
+                                            <p
+                                              dangerouslySetInnerHTML={{
+                                                __html: item.section2,
+                                              }}
+                                            />
+                                          </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-
-                                  <div className="flex h-auto" key={index}>
-                                    <div className="group relative   w-full overflow-hidden  bg-[#014AAD] p-5 text-white shadow-xl ring-1 transition-all  duration-300 hover:-translate-y-1 hover:shadow-2xl    sm:rounded-lg sm:px-10">
-                                      <span className="absolute right-0 top-0 z-0 h-0 w-0 -translate-x-1/2 rounded-sm  bg-[#2c69ba] transition-all duration-1000 group-hover:h-full group-hover:w-full group-hover:scale-[15] group-hover:delay-150"></span>
-                                      <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
-                                        <div className="text-base leading-6 text-white transition-all duration-300 group-hover:pt-0 ">
-                                          <p
-                                            dangerouslySetInnerHTML={{
-                                              __html: item.section3,
-                                            }}
-                                          />
+                                  <div className="flex justify-center">
+                                    <div className="flex h-72 w-52">
+                                      <div className="group relative   w-full overflow-hidden  rounded-lg bg-[#014AAD] p-5 text-white shadow-xl ring-1  transition-all duration-300 hover:-translate-y-1    hover:shadow-2xl ">
+                                        <span className="absolute right-0 top-0 z-0 h-0 w-0 -translate-x-1/2 rounded-sm  bg-[#2c69ba] transition-all duration-1000 group-hover:h-full group-hover:w-full group-hover:scale-[15] group-hover:delay-150"></span>
+                                        <div className="relative top-0 z-10 mx-auto flex max-w-md flex-col justify-center text-white">
+                                          <div className="text-base  text-white transition-all duration-300 group-hover:pt-0 ">
+                                            <p
+                                              dangerouslySetInnerHTML={{
+                                                __html: item.section3,
+                                              }}
+                                            />
+                                          </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-
-                                  {/* <div>1</div>
-                                <div>2</div>
-                                <div>3</div> */}
-                                  {/* <div className="flex w-auto gap-x-[5px]  align-middle">
-                                  <img
-                                    src="./assets/star.svg"
-                                    className="mt-2 h-4"
-                                  />
-                                  <p
-                                    className=" w-auto pb-5 text-xl font-normal leading-8 text-gray-500 "
-                                    dangerouslySetInnerHTML={{
-                                      __html: item.section1,
-                                    }}
-                                  />
-                                </div>
-                                <div className="flex w-auto gap-x-[5px]  align-middle">
-                                  <img
-                                    src="./assets/star.svg"
-                                    className="mt-2 h-4"
-                                  />
-                                  <p
-                                    className=" max-w-2xl pb-5 text-xl font-normal leading-8 text-gray-500 "
-                                    dangerouslySetInnerHTML={{
-                                      __html: item.section2,
-                                    }}
-                                  />
-                                </div>
-                                <div className="flex w-auto gap-x-[5px]  align-middle">
-                                  <img
-                                    src="./assets/star.svg"
-                                    className="mt-2 h-4"
-                                  />
-                                  <p
-                                    className=" max-w-2xl pb-5 text-xl font-normal leading-8 text-gray-500 "
-                                    dangerouslySetInnerHTML={{
-                                      __html: item.section3,
-                                    }}
-                                  />
-                                </div> */}
                                 </div>
                               </div>
                             );
