@@ -68,7 +68,7 @@ const AboutUs = () => {
                                     <hr className="h-[3px] w-48 bg-[#014AAd]" />
                                   </div>
                                 </div>
-                                <div className="grid gap-2 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 xl:grid xl:grid-cols-3 2xl:grid 2xl:grid-cols-3">
+                                <div className="grid gap-4 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 xl:grid xl:grid-cols-3 2xl:grid 2xl:grid-cols-3">
                                   <div className="flex justify-center">
                                     <div className="group relative  h-72 w-56 transform overflow-hidden rounded-lg bg-[#014AAD] p-5  shadow-md duration-500 hover:scale-105 hover:shadow-xl ">
                                       <span className="absolute left-1/2 top-24 z-0 h-0 w-0 -translate-x-1/2 rounded-full  bg-[#2c69ba]  transition-all duration-1000 group-hover:h-28 group-hover:w-28 group-hover:scale-[15] group-hover:delay-150"></span>

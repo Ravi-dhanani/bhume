@@ -30,7 +30,7 @@ const Process = () => {
           <div className="flex flex-wrap ">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
               <div className="mt-5 grid sm:gap-y-5 md:mx-10 md:grid-cols-1 lg:grid-cols-2">
-                <div className="px-5 md:px-0">
+                <div className="mb-5 px-5 md:px-0">
                   <img
                     className=" max-h-[700px]  w-full md:mt-0 lg:object-contain "
                     src="assets/our_process.jpg"
