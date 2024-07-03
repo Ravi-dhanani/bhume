@@ -95,17 +95,17 @@ const Inquiry = () => {
           <div className="relative  w-auto  lg:mt-5 ">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
               <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 ">
-                <div className="img-box h-auto lg:h-96">
+                <div className="img-box h-auto">
                   <img
-                    src="assets/inquiry.png"
+                    src="assets/enquiry.jpg"
                     alt="About Us tailwind page"
-                    className="hidden lg:block"
+                    className="md: hidden w-40 lg:block lg:w-[650px] xl:w-[650px]"
                   />
                 </div>
                 <div className="flex items-center px-3 md:px-0 lg:pr-24">
                   <div className="data w-full">
                     <img
-                      src="assets/inquiry.png"
+                      src="assets/enquiry.jpg"
                       alt="About Us tailwind page"
                       className="mx-auto mb-9 block lg:hidden"
                     />

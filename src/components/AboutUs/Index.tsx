@@ -34,7 +34,7 @@ const AboutUs = () => {
           <section className="relative lg:py-5">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
               <div className="relative mx-auto    ">
-                <div className="grid grid-cols-1 gap-x-2 lg:grid-cols-1  xl:grid-cols-2 2xl:grid-cols-2">
+                <div className="grid grid-cols-1 gap-x-2 lg:grid lg:grid-cols-1 xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2">
                   <div className="img-box">
                     <img
                       src="assets/aboutUs.png"
