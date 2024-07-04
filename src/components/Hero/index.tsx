@@ -23,7 +23,7 @@ export default function Hero() {
       <section
         // className="flex flex-col justify-around gap-6 px-5 pt-3 sm:gap-10 md:gap-16  md:px-10 lg:flex-row"
         data-aos="fade-up"
-        className="mt-2 flex flex-col items-center justify-center px-3 sm:mt-2 md:mt-5 lg:mt-5 xl:mt-7 2xl:mt-7"
+        className="mt-2 flex flex-col items-center justify-center px-3 sm:mt-2 md:mt-5 lg:mt-5 xl:mt-12 2xl:mt-10"
       >
         {/* content - start */}
         <div className="grid  px-5 sm:grid md:grid lg:grid lg:grid-cols-2 lg:gap-x-2">

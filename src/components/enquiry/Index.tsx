@@ -93,7 +93,7 @@ const Inquiry = () => {
           />
           <div className="relative  w-auto  lg:mt-5 ">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-              <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 ">
+              <div className="mx-5 grid grid-cols-1 sm:mx-5 md:mx-5 md:grid md:grid-cols-1 lg:mx-5 lg:grid lg:grid-cols-2  lg:gap-9 xl:mx-6 xl:grid xl:grid-cols-2 2xl:mx-7 2xl:grid 2xl:grid-cols-2 ">
                 <div className="img-box h-auto">
                   <img
                     src="assets/enquiry.jpg"
@@ -101,7 +101,7 @@ const Inquiry = () => {
                     className="md: hidden w-40 lg:block lg:w-[650px] xl:w-[650px]"
                   />
                 </div>
-                <div className="flex items-center px-3 md:px-0 lg:pr-24">
+                <div className=" ">
                   <div className="data w-full">
                     <img
                       src="assets/enquiry.jpg"
