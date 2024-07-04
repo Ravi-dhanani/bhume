@@ -5,8 +5,8 @@ import "aos/dist/aos.css";
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import AnimatedCursor from "react-animated-cursor";
-import "../styles/index.css";
 import "react-toastify/dist/ReactToastify.css";
+import "../styles/index.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,9 +32,7 @@ export default function RootLayout({
         suppressHydrationWarning={true}
       >
         <QueryClientProvider client={queryClient}>
-          <TopNavbar />
           <Header />
-          {/* <SelectLanguage /> */}
           <AnimatedCursor
             innerSize={10}
             outerSize={12}
@@ -66,4 +64,3 @@ export default function RootLayout({
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useEffect } from "react";
-import TopNavbar from "@/components/Header/TopNavbar";

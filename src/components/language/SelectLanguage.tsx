@@ -29,10 +29,10 @@ export default function SelectLanguage() {
         className="focus-within-none block   rounded-lg border  px-4 py-3 text-base outline-none  "
         value={id}
         onChange={(e: any) => {
+          localStorage.setItem("language", e.target.value);
           UIStore.update((s) => {
             s.selectLanguage = e.target.value;
           });
-          localStorage.setItem("language", e.target.value);
         }}
       >
         {data &&

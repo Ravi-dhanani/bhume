@@ -18,18 +18,19 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative z-10  overflow-hidden bg-white pb-16  pt-[130px] dark:bg-gray-dark "
+      className="xl: relative  z-10 overflow-hidden bg-white pb-16  pt-[130px] dark:bg-gray-dark "
     >
       <section
         // className="flex flex-col justify-around gap-6 px-5 pt-3 sm:gap-10 md:gap-16  md:px-10 lg:flex-row"
         data-aos="fade-up"
+        className="mt-2 flex flex-col items-center justify-center px-3 sm:mt-2 md:mt-5 lg:mt-5 xl:mt-7 2xl:mt-7"
       >
         {/* content - start */}
         <div className="grid  px-5 sm:grid md:grid lg:grid lg:grid-cols-2 lg:gap-x-2">
           <div className="flex flex-col justify-center  lg:py-12 lg:text-left  xl:py-16">
             {data &&
               data
-                .filter((v: IHero) => v.language_id.title == id)
+                .filter((v: any) => v?.language_id.title == id)
                 .map((item: IHero, index: number) => (
                   <div key={index}>
                     <h1
@@ -50,7 +51,7 @@ export default function Hero() {
                   </div>
                 ))}
           </div>
-          <div className="h-auto">
+          <div className="h-auto  ">
             <img
               src="./assets/hero.jpeg"
               loading="lazy"

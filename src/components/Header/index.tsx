@@ -8,6 +8,9 @@ import menuData from "./menuData";
 import Navbar from "./Navbar";
 import { UIStore } from "@/services/pullstate/store";
 import TopNavbar from "./TopNavbar";
+import { useQuery } from "@tanstack/react-query";
+import ApiServices from "@/services/Apiservices";
+import Loadding from "../Common/Loadding";
 
 const Header = () => {
   // Navbar toggle
@@ -17,7 +20,11 @@ const Header = () => {
     setNavbarOpen(!navbarOpen);
   };
   const selectLangauge = UIStore.useState((s) => s.selectLanguage);
-
+  const usePathName = usePathname();
+  const { isLoading } = useQuery({
+    queryKey: ["hero"],
+    queryFn: ApiServices.getLstHero,
+  });
   // Sticky Navbar
   const [sticky, setSticky] = React.useState(false);
   const handleStickyNavbar = () => {
@@ -51,8 +58,7 @@ const Header = () => {
     }
   };
 
-  const usePathName = usePathname();
-
+  if (isLoading) return <Loadding />;
   return (
     <>
       <header
@@ -66,9 +72,7 @@ const Header = () => {
             : "absolute bg-white  "
         } `}
       >
-        <div className="">
-          <TopNavbar />
-        </div>
+        <TopNavbar />
 
         {/* <div className="container xs:container  sm:mx-auto md:mx-auto xl:mx-auto"> */}
         <div className="w-full px-5 md:px-10">

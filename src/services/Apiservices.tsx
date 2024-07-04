@@ -8,7 +8,14 @@ class ApiServices {
       `${URL}/api/get_language`,
       localStorage.token,
     );
+    const defailtLanguage = localStorage.getItem("language");
 
+    if (defailtLanguage == "undefined" || !defailtLanguage) {
+      localStorage.setItem("language", res?.data[0]?.title);
+      UIStore.update((s) => {
+        s.selectLanguage = defailtLanguage || "";
+      });
+    }
     return res.data;
   }
 
