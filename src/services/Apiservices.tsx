@@ -8,9 +8,6 @@ class ApiServices {
       `${URL}/api/get_language`,
       localStorage.token,
     );
-    UIStore.update((s) => {
-      s.selectLanguage = res.data[0].title;
-    });
 
     return res.data;
   }

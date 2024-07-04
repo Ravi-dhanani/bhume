@@ -57,7 +57,6 @@ const Inquiry = () => {
     resolver: yupResolver(schema),
   });
   const onSubmit = async (data: any) => {
-    console.log(data);
     const InquiryData = {
       name: data.name,
       companyName: data.companyName,
