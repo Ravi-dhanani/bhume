@@ -31,15 +31,15 @@ const AboutUs = () => {
             paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
             center
           />
-          <section className="relative lg:py-5">
+          <section className="relative lg:py-5 xl:py-2 2xl:py-2">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-              <div className="relative mx-auto    ">
+              <div className="relative mx-auto">
                 <div className="grid grid-cols-1 gap-x-2 lg:grid lg:grid-cols-1 xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2">
                   <div className="img-box">
                     <img
                       src="assets/aboutUs.png"
                       alt="About Us tailwind page"
-                      className="max-lg:mx-auto"
+                      className="lg:mx-auto"
                     />
                   </div>
                   <div className="mx-5 flex items-center ">

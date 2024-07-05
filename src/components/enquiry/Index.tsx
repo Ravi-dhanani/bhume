@@ -94,14 +94,14 @@ const Inquiry = () => {
           <div className="relative  w-auto  lg:mt-5 ">
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
               <div className="mx-5 grid grid-cols-1 sm:mx-5 md:mx-5 md:grid md:grid-cols-1 lg:mx-5 lg:grid lg:grid-cols-2  lg:gap-9 xl:mx-6 xl:grid xl:grid-cols-2 2xl:mx-7 2xl:grid 2xl:grid-cols-2 ">
-                <div className="img-box h-auto">
+                <div className="img-box flex h-auto justify-center">
                   <img
                     src="assets/enquiry.jpg"
                     alt="About Us tailwind page"
-                    className="md: hidden w-40 lg:block lg:w-[650px] xl:w-[650px]"
+                    className="md: hidden w-40 lg:block lg:w-[600px] xl:w-[600px]"
                   />
                 </div>
-                <div className=" ">
+                <div>
                   <div className="data w-full">
                     <img
                       src="assets/enquiry.jpg"
@@ -109,8 +109,8 @@ const Inquiry = () => {
                       className="mx-auto mb-9 block lg:hidden"
                     />
                     <form onSubmit={handleSubmit(onSubmit)}>
-                      <div className="z-40 rounded-lg bg-white p-5 opacity-100 shadow-md">
-                        <div className="relative mb-2">
+                      <div className="z-40 rounded-lg bg-white p-6   opacity-100 shadow-md">
+                        <div className="relative mb-3">
                           <label
                             htmlFor="email"
                             className={`text-sm leading-7 text-gray-600 ${errors.name ? "text-red-500" : ""}`}
@@ -124,7 +124,7 @@ const Inquiry = () => {
                             className={`w-full rounded border border-gray-300 bg-white px-3  py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out ${errors.name ? "border-red-500" : "border-gray-300"}`}
                           />
                         </div>
-                        <div className="relative mb-2">
+                        <div className="relative mb-3">
                           <label
                             htmlFor="email"
                             className={`text-sm leading-7 text-gray-600 ${errors.companyName ? "text-red-500" : ""}`}
@@ -138,7 +138,7 @@ const Inquiry = () => {
                             className={`w-full rounded border border-gray-300 bg-white px-3  py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out ${errors.companyName ? "border-red-500" : "border-gray-300"}`}
                           />
                         </div>
-                        <div className="relative mb-2">
+                        <div className="relative mb-3 ">
                           <label
                             htmlFor="email"
                             className={`text-sm leading-7 text-gray-600 ${errors.email ? "text-red-500" : ""}`}
@@ -154,7 +154,7 @@ const Inquiry = () => {
                             className={`w-full rounded border border-gray-300 bg-white px-3  py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out ${errors.email ? "border-red-500" : "border-gray-300"}`}
                           />
                         </div>
-                        <div className="relative mb-2">
+                        <div className="relative mb-3">
                           <label
                             htmlFor="number"
                             className={`text-sm leading-7 text-gray-600 ${errors.mobileNo ? "text-red-500" : ""}`}
@@ -168,7 +168,7 @@ const Inquiry = () => {
                             className={`w-full rounded border border-gray-300 bg-white px-3  py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out ${errors.mobileNo ? "border-red-500" : "border-gray-300"}`}
                           />
                         </div>
-                        <div className="relative mb-2">
+                        <div className="relative mb-3">
                           <label
                             htmlFor="message"
                             className={`text-sm leading-7 text-gray-600 ${errors.message ? "text-red-500" : ""}`}
