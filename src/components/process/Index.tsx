@@ -17,7 +17,7 @@ const Process = () => {
     <>
       <section
         id="ourProcess"
-        className="bg-white  sm:mt-[500px] sm:py-48 md:mt-[350px] md:py-20  lg:mt-16 lg:py-24"
+        className="bg-white pt-20 sm:mt-[500px] sm:py-48 md:mt-[350px] md:py-20  lg:mt-16 lg:py-24"
       >
         <div className="mt-20">
           <SectionTitle

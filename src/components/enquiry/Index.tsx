@@ -82,7 +82,7 @@ const Inquiry = () => {
     <>
       <section
         id="enquiry"
-        className=" bg-white  pb-5 pt-16 md:pt-20 lg:pt-[120px]"
+        className=" bg-white  pb-5 pt-16 md:pt-32 lg:pt-[120px]"
       >
         <div>
           <SectionTitle
@@ -96,15 +96,15 @@ const Inquiry = () => {
               <div className="mx-5 grid grid-cols-1 sm:mx-5 md:mx-5 md:grid md:grid-cols-1 lg:mx-5 lg:grid lg:grid-cols-2  lg:gap-9 xl:mx-6 xl:grid xl:grid-cols-2 2xl:mx-7 2xl:grid 2xl:grid-cols-2 ">
                 <div className="img-box flex h-auto justify-center">
                   <img
-                    src="assets/enquiry.jpg"
+                    src="assets/inquiry.png"
                     alt="About Us tailwind page"
-                    className="md: hidden w-40 lg:block lg:w-[600px] xl:w-[600px]"
+                    className="md: hidden w-40 lg:block lg:w-[600px] xl:w-[630px]"
                   />
                 </div>
                 <div>
                   <div className="data w-full">
                     <img
-                      src="assets/enquiry.jpg"
+                      src="assets/inquiry.png"
                       alt="About Us tailwind page"
                       className="mx-auto mb-9 block lg:hidden"
                     />

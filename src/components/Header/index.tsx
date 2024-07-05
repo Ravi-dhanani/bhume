@@ -11,6 +11,7 @@ import TopNavbar from "./TopNavbar";
 import { useQuery } from "@tanstack/react-query";
 import ApiServices from "@/services/Apiservices";
 import Loadding from "../Common/Loadding";
+import MobileTopBar from "./MobileTopBar";
 
 const Header = () => {
   // Navbar toggle
@@ -73,9 +74,10 @@ const Header = () => {
         } `}
       >
         <TopNavbar />
+        <MobileTopBar />
 
         {/* <div className="container xs:container  sm:mx-auto md:mx-auto xl:mx-auto"> */}
-        <div className="w-full px-5 md:px-10">
+        <div className="w-full px-5  md:px-5">
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-60 max-w-full px-4">
               <Link

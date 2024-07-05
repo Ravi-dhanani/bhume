@@ -30,6 +30,9 @@ export default function TopNavbar() {
             </div>
           </div>
           <div className="hidden gap-x-2 md:flex">
+            <p className="text-base text-body-color">
+              {selectLangauge == "Chinese" ? "跟着我们:" : "Follow us on:"}
+            </p>
             <a
               href=" https://www.instagram.com/bhume_engg?igsh=MXh1MmV0ZjRzbGsxaA%3D%3D&utm_source=qr"
               target="_blank"

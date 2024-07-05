@@ -23,8 +23,11 @@ const AboutUs = () => {
 
   return (
     <>
-      <section id="aboutUs" className="bg-white py-16  md:py-20 lg:py-32">
-        <div className="">
+      <section
+        id="aboutUs"
+        className="bg-white py-16  md:pt-32 lg:py-32 xl:py-32 2xl:py-32"
+      >
+        <div>
           <SectionTitle
             title="About Us"
             ctitle="关于我们"
@@ -37,7 +40,7 @@ const AboutUs = () => {
                 <div className="grid grid-cols-1 gap-x-2 lg:grid lg:grid-cols-1 xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2">
                   <div className="img-box">
                     <img
-                      src="assets/aboutUs.png"
+                      src="assets/enquiry.jpg"
                       alt="About Us tailwind page"
                       className="lg:mx-auto"
                     />
