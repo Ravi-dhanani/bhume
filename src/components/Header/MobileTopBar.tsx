@@ -6,7 +6,7 @@ export default function MobileTopBar() {
 
   return (
     <div>
-      <div className="mx-5 flex justify-between  md:hidden lg:hidden xl:hidden 2xl:hidden ">
+      <div className="mx-3   flex justify-between  md:hidden lg:hidden xl:hidden 2xl:hidden ">
         <div>
           <div className="flex ">
             <p className="hidden text-sm text-body-color">
@@ -26,7 +26,6 @@ export default function MobileTopBar() {
             <a href="mailto:info@nebulem.com">enquiry@bhumeeng.com</a>
           </p>
         </div>
-        <div></div>
       </div>
     </div>
   );
