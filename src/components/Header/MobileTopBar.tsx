@@ -6,7 +6,7 @@ export default function MobileTopBar() {
 
   return (
     <div>
-      <div className="mx-5  flex justify-between  md:hidden lg:hidden xl:hidden 2xl:hidden ">
+      <div className="mx-3  flex justify-between  md:hidden lg:hidden xl:hidden 2xl:hidden ">
         <div>
           <div className="flex ">
             <p className="hidden text-xs text-body-color">
