@@ -6,23 +6,23 @@ export default function MobileTopBar() {
 
   return (
     <div>
-      <div className="mx-3   flex justify-between  md:hidden lg:hidden xl:hidden 2xl:hidden ">
+      <div className="mx-5  flex justify-between  md:hidden lg:hidden xl:hidden 2xl:hidden ">
         <div>
           <div className="flex ">
-            <p className="hidden text-sm text-body-color">
+            <p className="hidden text-xs text-body-color">
               {selectLangauge == "Chinese" ? "接触:" : "Contact:"}
             </p>
-            <p className=" text-sm text-body-color  hover:text-[#014AAD]">
+            <p className=" text-xs text-body-color  hover:text-[#014AAD]">
               +91 90042 34631
               {selectLangauge == "Chinese" ? "(孟买):" : "(Mumbai)"}
             </p>
           </div>
         </div>
         <div>
-          <p className="hidden text-sm text-gray-600">
+          <p className="hidden text-xs text-gray-600">
             {selectLangauge == "Chinese" ? "邮件:" : "Mail:"}
           </p>
-          <p className="text-sm text-body-color hover:text-[#014AAD]">
+          <p className="text-xs text-body-color hover:text-[#014AAD]">
             <a href="mailto:info@nebulem.com">enquiry@bhumeeng.com</a>
           </p>
         </div>
