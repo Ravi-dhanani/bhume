@@ -29,7 +29,7 @@ export default function TopNavbar() {
               </div>
             </div>
           </div>
-          <div className="hidden gap-x-2 md:flex">
+          <div className="hidden gap-x-2 sm:hidden md:hidden lg:flex">
             <p className="text-base text-body-color">
               {selectLangauge == "Chinese" ? "跟着我们:" : "Follow us on:"}
             </p>

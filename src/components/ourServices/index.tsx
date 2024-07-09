@@ -207,9 +207,9 @@ const Services = () => {
           <div
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
-            className="flex flex-col  items-center justify-center"
+            className="flex flex-col  items-center justify-between"
           >
-            <div className=" grid justify-center gap-y-2 sm:grid sm:grid-cols-1 sm:gap-2 md:grid md:grid-cols-2 md:space-y-0 lg:grid-cols-2 xl:grid-cols-4 xl:space-x-2 2xl:grid-cols-4 2xl:space-x-2 ">
+            <div className=" xl:gridxl:space-x-2 grid justify-center gap-y-2 sm:grid sm:grid-cols-1 sm:gap-2 md:grid md:grid-cols-2 md:space-y-0 lg:grid-cols-3  xl:grid-cols-3 2xl:grid-cols-4 2xl:space-x-2 ">
               {data
                 ?.filter((v: any) => v.language.title == id)
                 .map((item: any, index: number) => {
