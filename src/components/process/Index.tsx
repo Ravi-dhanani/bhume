@@ -171,16 +171,12 @@ const Process = () => {
           </div> */}
 
           <div
-            className="mx-10 mt-10 grid justify-center xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2"
+            className="mx-5 mt-10 grid justify-center sm:mx-5 md:mx-5  xl:mx-5 xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2"
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
           >
-            <div className="mb-5 px-5 md:px-0">
-              <img
-                className=" max-h-[550px]  w-full md:mt-0 lg:object-contain "
-                src="assets/our_process.jpg"
-                alt="step"
-              />
+            <div className="mb-5 md:mb-5  md:px-0 xl:mx-10 xl:mb-0 2xl:mb-0">
+              <img className=" " src="assets/our_process.jpg" alt="step" />
             </div>
             <div className="">
               <div className="relative flex pb-8">

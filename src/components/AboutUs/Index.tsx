@@ -38,11 +38,11 @@ const AboutUs = () => {
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
               <div className="relative mx-auto">
                 <div className="grid grid-cols-1 gap-x-2 lg:grid lg:grid-cols-1 xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2">
-                  <div className="img-box">
+                  <div className="img-box  md:flex md:justify-center">
                     <img
                       src="assets/enquiry.jpg"
                       alt="About Us tailwind page"
-                      className="lg:mx-auto"
+                      className="w-[550px] lg:mx-auto"
                     />
                   </div>
                   <div className="mx-5 flex items-center ">
